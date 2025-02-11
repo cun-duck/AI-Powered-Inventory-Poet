@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Report - {{date}}</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Inventory Analysis Report</h1>
+    <div id="charts">
+        {{ plot1|safe }}
+        {{ plot2|safe }}
+    </div>
+    <div id="narrative">
+        {{ narrative|safe }}
+    </div>
+</body>
+</html>
