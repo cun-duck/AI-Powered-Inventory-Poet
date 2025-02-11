@@ -1,0 +1,8 @@
+Analyze this inventory data and write a concise executive summary in business English:
+
+- Total items: {{data.total_items}}
+- Critical stock items: {{data.critical_items}} ({{(data.critical_items/data.total_items*100)|round}}% of total)
+- Most stocked category: {{data.most_stocked_category}}
+- Oldest stock item: {{data.oldest_item}} (last updated {{data.oldest_update}} days ago)
+
+Highlight 3 key priorities for inventory management. Use bullet points. Max 150 words.
